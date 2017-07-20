@@ -1,0 +1,141 @@
+/* GLOBAL */
+
+html, body {
+    background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 4%, rgba(192,192,192,1) 100%);
+}
+
+/* ALIGNS THE CONTAINER VERTICALLY*/
+
+.vertical-center {
+    min-height: 100%; 
+    min-height: 100vh;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* LOGIN CONTAINER*/
+
+.login {
+    border: 2px solid grey;
+    background:url(https://raw.githubusercontent.com/khadkamhn/day-01-login-form/master/img/bg.jpg) no-repeat center;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.25),0 17px 50px 0 rgba(0,0,0,.2);
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.col-xs-12, col-md-12 {
+    padding: 0;
+    margin: 0;
+}
+
+.opacity {
+	background:rgba(40,57,101,.9);
+	padding: 70px 80px 60px 80px;
+    position: relative;
+    height: 100%;
+}
+
+/* TEXT STYLING */
+
+header h2 {
+    font-size: 5rem;
+    color: #fff;
+}
+
+.form h3 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.form ul li {
+    color: #fff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #f3f3f3;
+    margin: 5px 0;
+}
+
+.form ul input {
+    color: #fff;
+    font-size: 2rem;
+	border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:rgba(255,255,255,.1);
+    border: transparent;
+}
+
+/* SUBMIT BUTTON */
+
+.submit {
+    padding: 7px 14px;
+    border-radius: 5px;
+	box-shadow:0 7px 9px 0 rgba(0,0,0,.25),0 12px 40px 0 rgba(0,0,0,.2);
+    transition: top ease-in-out .9s;
+    position: relative;
+    top: 0;
+}
+
+
+
+.submit:hover {
+    top: 3px;
+	box-shadow:0 3px 6px 0 rgba(0,0,0,.25),0 6px 30px 0 rgba(0,0,0,.2);
+}
+
+input.submit {
+    color: rgba(40,57,101,.9);
+    font-size: 2rem;
+    font-weight: bold;
+    transition: all ease-in-out .3s;
+    border-color: rgba(40,57,101,.9);
+}
+
+/* REGISTRATION TEXT */
+
+.registration {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.registration p,a {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #f3f3f3;
+}
+
+.registration a, .registration a:hover,.registration a:visited,.registration a:active
+{
+    color: #62FF29;
+}
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 600px) {
+    .opacity {
+        padding: 40px 50px 30px 50px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .opacity {
+        padding: 40px 50px 30px 50px;
+    }
+    .login {
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .opacity {
+        padding: 20px 25px 15px 25px;
+    }
+}
+    
+
