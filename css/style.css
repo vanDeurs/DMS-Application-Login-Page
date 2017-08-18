@@ -67,6 +67,18 @@ body a:hover{
 .header-right {
     float: right;
 }
+
+.header-right h1 {
+    display: inline-block;
+    margin: 15px 15px 0 0;
+}
+
+@media only screen and (max-width: 951px){
+    .header-right h1 {
+        display: none;
+        position: absolute;
+    }
+}
 /* ----menu-icon----*/
 button#showLeftPush {
     font-size: 1.5em;
@@ -341,7 +353,7 @@ i.fa.fa-tasks{
 .sb-search-input {
     outline: none;
     background: #fff;
-    width: 100%;
+    width: 70%;
     margin: 0;
     z-index: 10;
     font-size: 0.9em;
@@ -392,7 +404,7 @@ i.fa.fa-tasks{
 .input__field--madoka {
 	background: transparent;
 	display: block;
-	float: right;
+	float: left;
 }
 .input__field--madoka:focus {
 	outline: none;
@@ -3869,3 +3881,36 @@ ul.nofitications-dropdown {
 		margin: 2em 0 0 0;
 	}
 }
+
+
+.docs-left {
+    border-right: 1px solid #000;
+    height: 100vh;
+    display: block;
+    padding: 0;
+    margin: 0;
+    padding-top: 115px;
+}
+
+#output{
+    border-radius: 1px solid #000; 
+}
+
+#output .fld{
+    font-size: 1.4rem;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+#output .fieldName{
+    font-size: 1rem;
+    color: rgba(50,50,50,.8);
+    padding-left: 20px;
+    border-bottom: 1px solid #333;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+

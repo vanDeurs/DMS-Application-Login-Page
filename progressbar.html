@@ -34,6 +34,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 <!--animate-->
 <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
 <script src="js/wow.min.js"></script>
+<!--<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>-->
 	<script>
 		 new WOW().init();
 	</script>
@@ -56,13 +57,13 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 					<div class="scrollbar scrollbar1">
 						<ul class="nav" id="side-menu">
 							<li>
-								<a href="index.html"><i class="fa fa-home nav_icon"></i>Dashboard</a>
+								<a href="application.html"><i class="fa fa-home nav_icon"></i>Dashboard</a>
 							</li>
 							<li>
-								<a href="#"><i class="fa fa-cogs nav_icon"></i>Components<span class="fa arrow"></span></a>
+								<a href="#"><i class="fa fa-cogs nav_icon"></i>Stuff<span class="fa arrow"></span></a>
 								<ul class="nav nav-second-level collapse">
 									<li>
-										<a href="progressbar.html">Progressbar</a>
+										<a href="progressbar.html">Documents</a>
 									</li>
 									<li>
 										<a href="grid.html">Grid</a>
@@ -155,7 +156,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 			<div class="header-left">
 				<!--logo -->
 				<div class="logo">
-					<a href="index.html">
+					<a href="application.html">
 						<ul>	
 							<li><img src="images/logo1.png" alt="" /></li>
 							<li><h1>Baxster</h1></li>
@@ -305,14 +306,9 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 				<div class="clearfix"> </div>
 			</div>
 			<!--search-box-->
-				<div class="search-box">
-					<form class="input">
-						<input class="sb-search-input input__field--madoka" placeholder="Search..." type="search" id="input-31" />
-						
-					</form>
-				</div>
 				<!--//end-search-box-->
 			<div class="header-right">
+                <h1 id="username">Name</h1>
 				
 				<!--notification menu end -->
 				<div class="profile_details">		
@@ -341,96 +337,21 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 		</div>
 		<!-- //header-ends -->
 		<!-- main content start-->
-		<div id="page-wrapper">
+		<div id="page-wrapper1">
 			<div class="main-page">
-				<!--progressbar-->
-				<div class="progressbar">
-					<div class="progressbar-heading">
-						<h2>Progress Bars</h2>
-					</div>
-					<div class="panel panel-widget">
-						<div class="grid_3 grid_5">
-							<h3>Colors</h3>
-								<div class="tab-content">
-									  <div class="tab-pane active" id="domprogress">
-										  <div class="progress p-progress">    
-											<div class="progress-bar progress-bar-primary" style="width: 20%">20%</div>
-										  </div>
-										  <div class="progress p-progress">    
-											<div class="progress-bar progress-bar-info" style="width: 60%">60%</div>
-										  </div>
-										  <div class="progress p-progress">
-											<div class="progress-bar progress-bar-success" style="width: 30%">30%</div>
-										  </div>
-										  <div class="progress p-progress">
-											<div class="progress-bar progress-bar-warning" style="width: 70%">70%</div>
-										  </div>
-										  <div class="progress p-progress">
-											<div class="progress-bar progress-bar-danger" style="width: 50%">50%</div>
-										  </div>
-										  <div class="progress p-progress">
-											<div class="progress-bar progress-bar-inverse" style="width: 40%">40%</div>
-										  </div>
-									</div>
-							   </div>
-						</div>
-						<div class="grid_3 grid_5">
-							<h3>Size</h3>
-								<div class="tab-content">
-									  <div class="tab-pane active" id="domprogress">
-										  <div class="progress p-progress p-progress-size">    
-											<div class="progress-bar progress-bar-primary p-progress-info" style="width: 20%">20%</div>
-										  </div>
-										  <div class="progress p-progress progress-sm">    
-											<div class="progress-bar progress-bar-info p-progress-info" style="width: 60%">60%</div>
-										  </div>
-										  <div class="progress p-progress progress-sm">
-											<div class="progress-bar progress-bar-success p-progress-info" style="width: 30%">30%</div>
-										  </div>
-										  <div class="progress p-progress progress-md">
-											<div class="progress-bar progress-bar-warning p-progress-info" style="width: 70%"></div>
-										  </div>
-										  <div class="progress p-progress progress-md">
-											<div class="progress-bar progress-bar-danger p-progress-info" style="width: 50%"></div>
-										  </div>
-										  <div class="progress p-progress progress-xl">
-											<div class="progress-bar progress-bar-inverse p-progress-info" style="width: 40%"></div>
-										  </div>
-									</div>
-							   </div>
-						</div>
-						<div class="grid_3 grid_5">
-							<h3>Striped</h3>
-							<div class="progress progress-striped">
-								<div class="progress-bar progress-bar-primary" style="width:40%">40%</div>
-							</div>
-							<div class="progress progress-striped active">
-								<div class="progress-bar progress-bar-info" style="width:30%">30%</div>
-							</div>
-						</div>
-						<div class="grid_3 grid_5">
-							<h3>Stack</h3>
-							<div class="progress">
-								<div class="progress-bar progress-bar-success" style="width: 35%"><span class="sr-only">35% Complete (success)</span></div>
-								<div class="progress-bar progress-bar-warning" style="width: 20%"><span class="sr-only">20% Complete (warning)</span></div>
-								<div class="progress-bar progress-bar-danger" style="width: 10%"><span class="sr-only">10% Complete (danger)</span></div>
-							</div>
-						</div>
-						<div class="grid_3 grid_5">
-							<h3>No radius</h3>
-							<div class="progress progress-striped no-radius">
-								<div class="progress-bar progress-bar-success" style="width:50%">50%</div>
-							</div>
-							<div class="progress progress-striped progress-no no-radius">
-								<div class="progress-bar progress-bar-warning" style="width:20%"></div>
-							</div>
-							<div class="progress progress-striped progress-nor no-radius">
-								<div class="progress-bar bg-dark" style="width:15%"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!--//progressbar-->
+				<!--Documents-->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-3 docs-left">
+                            <h2 id="DocTypeName"></h2>
+                            <div id="output"></div>
+                        </div>
+                    
+                    </div>
+                
+                
+                </div>
+				<!--//Documents-->
 				
 			</div>
 		</div>
@@ -770,4 +691,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 		<script src="js/scripts.js"></script>
 		<!--//scrolling js-->
 </body>
+    <script src="js/temporaryData.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/docs.js"></script>
 </html>
